@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database and notebooks
+*.db
+*.sqlite
+*.sqlite3
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs and cache
+*.log
+npm-debug.log*
+.cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
